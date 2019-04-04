@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spark-master
-          image: spark-hadoop:2.2.1
+          image: efouarge/rlt-spark:latest
           command: ["/spark-master"]
           ports:
             - containerPort: 7077
